@@ -210,3 +210,71 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+/* Секция Feyman */
+.feynman {
+  position: relative;
+  justify-content: center;
+  margin: 100px auto 0;
+  height: 790px;
+  border: 1px dashed red;
+}
+
+.feynman__title {
+  display: flex;
+  width: 648px;
+  margin: 0 auto;
+  justify-content: center;
+  border: 1px dashed red;
+  z-index: 10;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  display: flex;
+  margin: 70px auto 0;
+  justify-content: center;
+  z-index: 9;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  z-index: 8;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Секция kaufman*/
+
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  min-height: max-content;
+}
+
+.kaufman__triagle {
+  height: 877px;
+  width: 877px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+
+  background: #2f80ed;
+  border: 1px solid red;
+  z-index: 1;
+}
