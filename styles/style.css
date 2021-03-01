@@ -26,14 +26,14 @@
   position: absolute;
   z-index: 10;
   border: 1px solid red;
-  min-height: 32px;
-  min-width: 183px;
-  top: 30px;
-  left: 64px;
 }
 
 .logo-header_place_header {
   margin: 0 auto;
+  min-height: 32px;
+  min-width: 183px;
+  top: 30px;
+  left: 64px;
 }
 
 /* Блок title*/
@@ -148,6 +148,7 @@
 
 /*Секция digits*/
 .digits {
+  border: 1px dashed red;
   justify-content: center;
   margin: 100px auto 0;
 }
@@ -255,7 +256,7 @@
   z-index: 21;
 }
 
-.kaufman__triagle {
+.kaufman__triangle {
   height: 877px;
   width: 877px;
   position: absolute;
@@ -276,4 +277,46 @@
 
 .table_theme_dark_height {
   margin-top: 80px;
+}
+
+/* Секция Footer */
+.footer {
+  min-height: 350px;
+  border: 1px solid red;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-basis: 711px;
+}
+
+.columns {
+  display: flex;
+  width: 90%;
+  margin: 60px auto 40px;
+  justify-content: space-between;
+  border: 1px solid red;
+  position: relative;
+}
+
+.footer__column_content_copyright {
+  width: 50%;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 18px;
+  color: white;
+}
+
+.footer__column-links {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-heading {
+  color: white;
 }
