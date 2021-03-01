@@ -94,14 +94,6 @@
   z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /* Секция description */
 .description {
   display: flex;
@@ -156,7 +148,6 @@
 
 /*Секция digits*/
 .digits {
-  border: 1px dashed red;
   justify-content: center;
   margin: 100px auto 0;
 }
@@ -164,7 +155,6 @@
 .section-title {
   display: flex;
   width: 60%;
-  border: 1px solid red;
   justify-content: center;
   margin: 0 auto;
   line-height: 1.15;
@@ -175,7 +165,6 @@
 .section-subtitle {
   display: flex;
   width: 60%;
-  border: 1px solid red;
   justify-content: center;
   line-height: 34px;
   font-size: 24px;
@@ -185,16 +174,13 @@
 
 .table {
   display: flex;
-
   justify-content: space-between;
   width: 1100px;
-  border: 1px dashed red;
   margin: 60px auto 0;
 }
 
 .table__cell {
   width: 250px;
-  border: 1px dashed red;
 }
 
 .table__heading {
@@ -217,7 +203,6 @@
   justify-content: center;
   margin: 100px auto 0;
   height: 790px;
-  border: 1px dashed red;
 }
 
 .feynman__title {
@@ -225,7 +210,6 @@
   width: 648px;
   margin: 0 auto;
   justify-content: center;
-  border: 1px dashed red;
   z-index: 10;
   line-height: 1.15;
   font-size: 120px;
@@ -262,19 +246,34 @@
 /* Секция kaufman*/
 
 .kaufman {
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
   position: relative;
   background-color: #1f1f1f;
   min-height: max-content;
+  z-index: 21;
 }
 
 .kaufman__triagle {
   height: 877px;
   width: 877px;
   position: absolute;
-  right: 0;
-  top: 64px;
+  right: -210px;
+  top: 0px;
+  z-index: -2;
+}
 
-  background: #2f80ed;
-  border: 1px solid red;
-  z-index: 1;
+/* и элемента с модификатором вида ключ-значение */
+.kaufman_theme_dark {
+  color: white;
+}
+
+.table__cell_theme_dark_width {
+  width: 200px;
+  margin-right: 0;
+}
+
+.table_theme_dark_height {
+  margin-top: 80px;
 }
