@@ -35,25 +35,15 @@
 }
 
 /* Блок title*/
-.title {
+.header__title {
   position: relative;
   margin: auto 0;
   height: min-content;
   left: 64px;
-}
-
-.header__title {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-}
-
-.subtitle {
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-  z-index: 12;
 }
 
 .header_subtitle {
@@ -62,6 +52,9 @@
   font-weight: normal;
   width: 388px;
   z-index: 13;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
 }
 
 .header__link {
@@ -79,7 +72,7 @@
   z-index: 0;
 }
 
-.main-illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -221,9 +214,11 @@
   right: 48px;
   top: 50%;
   z-index: 8;
+  text-decoration: none;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .feynman-img {
