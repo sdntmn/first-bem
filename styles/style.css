@@ -15,7 +15,6 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  border: 1px solid red;
   background-color: #f2f2f2;
   display: flex;
   position: relative;
@@ -25,7 +24,6 @@
   display: inline-block;
   position: absolute;
   z-index: 10;
-  border: 1px solid red;
 }
 
 .logo-header_place_header {
@@ -47,7 +45,6 @@
 .header__title {
   width: 730px;
   line-height: 96px;
-  border: 1px solid red;
   font-size: 102px;
   font-weight: bold;
 }
@@ -64,7 +61,6 @@
   font-size: 18px;
   font-weight: normal;
   width: 388px;
-  border: 1px solid red;
   z-index: 13;
 }
 
@@ -79,9 +75,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-
   background: #2f80ed;
-  border: 1px solid red;
   z-index: 0;
 }
 
@@ -97,7 +91,6 @@
 /* Секция description */
 .description {
   display: flex;
-  border: 1px dashed red;
   justify-content: center;
   margin: 100px auto 0;
 }
@@ -107,12 +100,10 @@
   width: 80%;
   justify-content: space-between;
   height: min-content;
-  border: 1px solid red;
 }
 
 .two-columns__brief {
   width: 175px;
-  border: 1px solid red;
 }
 
 .two-columns__brief-text {
@@ -126,7 +117,6 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  border: 1px solid red;
 }
 
 .two-columns__paragraph {
@@ -148,7 +138,6 @@
 
 /*Секция digits*/
 .digits {
-  border: 1px dashed red;
   justify-content: center;
   margin: 100px auto 0;
 }
@@ -282,7 +271,6 @@
 /* Секция Footer */
 .footer {
   min-height: 350px;
-  border: 1px solid red;
   background-color: #1f1f1f;
   display: flex;
   flex-basis: 711px;
@@ -293,7 +281,6 @@
   width: 90%;
   margin: 60px auto 40px;
   justify-content: space-between;
-  border: 1px solid red;
   position: relative;
 }
 
@@ -302,21 +289,36 @@
 }
 
 .footer__author {
+  margin: 0 auto;
   position: absolute;
   bottom: 18px;
   color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-links {
-  text-decoration: none;
-  color: white;
+  margin: 20px auto 16px;
 }
 
 .footer__column-link {
   text-decoration: none;
   color: white;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
   color: white;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
 }
