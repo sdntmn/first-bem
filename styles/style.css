@@ -22,14 +22,13 @@
 }
 
 .logo {
-  display: inline-block;
   z-index: 10;
 }
 
 .logo_place_header {
   margin: 0 auto;
-  min-height: 32px;
-  min-width: 183px;
+  height: 32px;
+  width: 183px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -37,8 +36,9 @@
 
 /* Блок title*/
 .header__title {
-  position: relative;
   margin: auto 0;
+  position: relative;
+  align-self: center;
   height: min-content;
   left: 64px;
   width: 730px;
@@ -60,6 +60,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -121,13 +122,10 @@
   margin-bottom: 0;
 }
 
-.two-columns__paragraph_place-center {
-}
-
 .two-column__span-accept {
   line-height: 34px;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /*Секция digits*/
@@ -161,6 +159,7 @@
   justify-content: space-between;
   width: 1100px;
   margin: 60px auto 0;
+  flex-wrap: wrap;
 }
 
 .table__cell {
@@ -185,7 +184,7 @@
 .feynman {
   position: relative;
   margin: 0 auto;
-  height: 790px;
+  min-height: 790px;
   background: #f2f2f2;
   z-index: -2;
 }
@@ -220,7 +219,7 @@
   color: #2f80ed;
 }
 
-.feynman-img {
+.feynman__img {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -242,6 +241,7 @@
 .kaufman__triangle {
   height: 877px;
   width: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   top: 0px;
@@ -249,17 +249,19 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.kaufman_theme_dark {
+.section-title_theme_dark {
   color: white;
 }
 
-.table__cell_theme_dark_width {
-  width: 200px;
-  margin-right: 0;
+.section-subtitle_theme_dark {
+  color: white;
 }
 
-.table_theme_dark_height {
+.table__cell_theme_dark {
+  width: 200px;
+  margin-right: 0;
   margin-top: 80px;
+  color: white;
 }
 
 /* Секция Footer */
@@ -267,10 +269,9 @@
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
-  flex-basis: 711px;
 }
 
-.columns {
+.footer__columns {
   display: flex;
   width: 90%;
   margin: 60px auto 40px;
@@ -278,14 +279,13 @@
   position: relative;
 }
 
-.footer__column_content_copyright {
-  width: 50%;
+.footer__column {
+  flex-basis: 711px;
 }
 
 .footer__author {
-  margin: 0 auto;
-  position: absolute;
-  bottom: 18px;
+  margin: 0 0 18px;
+
   color: white;
   line-height: 25px;
   font-size: 18px;
