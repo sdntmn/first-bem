@@ -18,11 +18,11 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .logo {
   display: inline-block;
-  position: absolute;
   z-index: 10;
 }
 
@@ -30,6 +30,7 @@
   margin: 0 auto;
   min-height: 32px;
   min-width: 183px;
+  position: absolute;
   top: 30px;
   left: 64px;
 }
@@ -132,7 +133,7 @@
 /*Секция digits*/
 .digits {
   justify-content: center;
-  margin: 100px auto 0;
+  margin: 100px auto;
 }
 
 .section-title {
@@ -183,26 +184,25 @@
 /* Секция Feyman */
 .feynman {
   position: relative;
-  justify-content: center;
-  margin: 100px auto 0;
+  margin: 0 auto;
   height: 790px;
+  background: #f2f2f2;
+  z-index: -2;
 }
 
 .feynman__title {
-  display: flex;
   width: 648px;
   margin: 0 auto;
-  justify-content: center;
   z-index: 10;
+  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
 }
 
 .feynman__subtitle {
-  display: flex;
   margin: 70px auto 0;
-  justify-content: center;
+  text-align: center;
   z-index: 9;
   line-height: 51px;
   font-size: 36px;
@@ -211,9 +211,8 @@
 
 .feynman__link {
   position: absolute;
+  top: calc(50% - 26px);
   right: 48px;
-  top: 50%;
-  z-index: 8;
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
