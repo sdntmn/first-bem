@@ -26,7 +26,7 @@
   z-index: 10;
 }
 
-.logo-header_place_header {
+.logo_place_header {
   margin: 0 auto;
   min-height: 32px;
   min-width: 183px;
@@ -47,7 +47,7 @@
   font-weight: bold;
 }
 
-.header_subtitle {
+.header__subtitle {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -98,9 +98,6 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief-text {
   margin: 0 auto;
   line-height: 1.2;
   font-size: 18px;
@@ -114,14 +111,17 @@
 }
 
 .two-columns__paragraph {
-  margin: 0 auto;
+  margin: 0 auto 30px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .two-columns__paragraph_place-center {
-  margin: 30px auto;
 }
 
 .two-column__span-accept {
