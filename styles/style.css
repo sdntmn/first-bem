@@ -183,13 +183,12 @@
   min-height: 790px;
   background: #f2f2f2;
   z-index: -2;
+  padding-top: 100px;
 }
 
 .feynman__title {
   width: 648px;
   margin: 0 auto;
-  padding: 100px auto;
-  z-index: 10;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -207,7 +206,7 @@
 
 .feynman__link {
   position: absolute;
-  top: calc(50% - 26px);
+  top: 50%;
   right: 48px;
   text-decoration: none;
   line-height: 51px;
@@ -227,8 +226,7 @@
 
 .kaufman {
   overflow: hidden;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 90px 0;
   position: relative;
   background-color: #1f1f1f;
   min-height: max-content;
@@ -236,9 +234,12 @@
 }
 
 .kaufman__triangle {
-  height: 877px;
   width: 877px;
+  height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px;
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   right: -210px;
   top: 0px;
@@ -254,11 +255,15 @@
   color: white;
 }
 
+.table_theme_dark {
+  margin: 0 auto;
+}
 .table__cell_theme_dark {
+  margin: 0;
   width: 200px;
   margin-right: 0;
-  margin-top: 80px;
   color: white;
+  margin-top: 80px;
 }
 
 /* Секция Footer */
@@ -277,12 +282,30 @@
 }
 
 .footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  justify-content: flex-start;
+}
+
+.footer__column_content_social {
+  justify-content: flex-start;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
 }
 
 .footer__author {
   margin: 0 0 18px;
-
   color: white;
   line-height: 25px;
   font-size: 18px;
@@ -290,13 +313,14 @@
 }
 
 .footer__column-links {
-  margin: 20px auto 16px;
+  margin: 20px auto 16px 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__column-link {
   text-decoration: none;
   color: white;
-  margin: 0 auto;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -304,7 +328,7 @@
 
 .footer__column-heading {
   color: white;
-  margin: 0 auto;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
