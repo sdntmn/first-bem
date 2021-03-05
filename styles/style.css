@@ -212,6 +212,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  z-index: 2;
   color: #2f80ed;
 }
 
@@ -230,7 +231,7 @@
   position: relative;
   background-color: #1f1f1f;
   min-height: max-content;
-  z-index: 21;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -243,7 +244,7 @@
   position: absolute;
   right: -210px;
   top: 0px;
-  z-index: -2;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
