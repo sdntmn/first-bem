@@ -60,7 +60,7 @@
 }
 
 .header__link:hover {
-  background: rgb(130, 226, 118);
+  background: rgb(255, 255, 255);
 }
 
 .header__square-pic {
@@ -221,7 +221,7 @@
 }
 
 .feynman__link:hover {
-  background: rgb(130, 226, 118);
+  background: rgb(255, 255, 255);
 }
 
 .feynman__img {
