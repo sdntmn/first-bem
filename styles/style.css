@@ -335,6 +335,10 @@
   font-weight: normal;
 }
 
+.footer__column-link:hover {
+  background: rgb(155, 154, 152);
+}
+
 .footer__column-heading {
   color: white;
   margin: 0;
