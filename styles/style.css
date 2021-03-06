@@ -98,7 +98,7 @@
 
 .two-columns__brief {
   width: 175px;
-  margin: 0 auto;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -121,7 +121,7 @@
   margin-bottom: 0;
 }
 
-.two-column__span-accept {
+.two-columns__span-accept {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -157,7 +157,7 @@
   display: flex;
   justify-content: space-between;
   width: 1100px;
-  margin: 60px auto 0;
+  margin: 0 auto;
   flex-wrap: wrap;
   padding-left: 0;
 }
@@ -165,6 +165,7 @@
 .table__cell {
   width: 250px;
   list-style-type: none;
+  margin-top: 60px;
 }
 
 .table__heading {
