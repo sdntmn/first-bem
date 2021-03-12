@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="apple-touch-icon" href="/example.png" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -27,7 +27,7 @@
           src="images/header-image.png"
           alt="Часть иллюстрации картины Фёдора Решетникова 'Опять двойка', созданной в 1952 году"
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation rotation_around_deg360"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -56,20 +56,24 @@
         </section>
 
         <section class="techniques">
-          <h2>Техники обучения</h2>
-          <p>Пять практик от Барбары Оакли</p>
+          <h2 class="section-title">Техники обучения</h2>
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         </section>
 
         <section class="video">
-          <h2>Видео нa TED</h2>
-          <p>Для тех, кто любит прокрастинировать</p>
+          <h2 class="section-title">Видео нa TED</h2>
+          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+          <video class="video">
+            <source class="video__iframe" src="" />
+            <source class="video__iframe" src="" />
+          </video>
         </section>
 
         <section class="oakley">
-          <article>
-            <h2>История Барбары Оакли.</h2>
-            <div>
-              <p>
+          <article class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
                 С детства Барбаре не давалась математика. Она считала себя
                 законченным гуманитарием, причём далеко не самым умным. В армии
                 она изучала русский язык, чтобы получить надбавку, да так
@@ -144,17 +148,26 @@
         </section>
 
         <section class="khan">
-          <article>
-            <p>Салман Хан</p>
-            <h2>Весь мир — школа</h2>
-            <p>
+          <article class="khan__container">
+            <p class="khan__author">Салман Хан</p>
+            <h2 class="khan__title">Весь мир — школа</h2>
+            <p class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
               всем, кто занимается образованием — так учащиеся повсюду смогут
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
             </p>
-            <p>Джордж Лукас Кинорежиссер, продюсер</p>
+            <p class="khan__quote-author">
+              Джордж Лукас
+              <span class="khan__quote-author-subline"
+                >Кинорежиссер, продюсер</span
+              >
+            </p>
+            <div class="khan__book-container">
+              <img class="khan__book-pic" src="" alt="" />
+              <a class="khan__buy-link" href=""></a>
+            </div>
           </article>
         </section>
 
@@ -219,10 +232,12 @@
         </section>
 
         <section class="resources">
-          <h2>
-            Полезные ресурсы
-            <p>Больше материалов о техниках и лайфхаках обучения</p>
-          </h2>
+          <h2 class="section-title">Полезные ресурсы</h2>
+
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
+          <div class="resources__logo-zone"></div>
         </section>
       </main>
       <footer class="footer">
