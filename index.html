@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="apple-touch-icon" href="/example.png" />
     <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -58,15 +59,89 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+          <ul class="cards">
+            <li class="cards__item">
+              <img
+                src="images/cards-attention.png"
+                alt="Обложка книги '101 эссе, которые изменят ваше мышление'"
+                class="cards__image"
+              />
+              <h3 class="cards__title">Два вида внимания</h3>
+              <p class="cards__description">
+                Глубокие знания возникают, если чередовать сфокусированное и
+                рассеянное мышление.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                src="images/cards-recall.png"
+                alt="Мальчик играет на дудочке"
+                class="cards__image"
+              />
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">
+                Вспоминайте изученное — это позволит соединить разрозненные
+                порции памяти.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                src="images/cards-interliving.png"
+                alt="Фото станции метро в Нью-Йорке"
+                class="cards__image"
+              />
+              <h3 class="cards__title">Интерливинг</h3>
+              <p class="cards__description">
+                Изучайте несколько навыков одновременно, они обогащают друг
+                друга.
+              </p>
+            </li>
+
+            <li class="cards__item">
+              <img
+                src="images/cards-question.png"
+                alt="Фото библиотеки в Штутгарте. Германия"
+                class="cards__image"
+              />
+              <h3 class="cards__title">Вопросы</h3>
+              <p class="cards__description">
+                Слушая преподавателя, придумывайте хороший вопрос, который вас
+                действительно волнует.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                src="images/cards-competence.png"
+                alt="Фото стопки книг"
+                class="cards__image"
+              />
+              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <p class="cards__description">
+                Повторите про себя, запишите, расскажите другу: вам только
+                кажется, что вы владеете новой темой.
+              </p>
+            </li>
+          </ul>
         </section>
 
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <video class="video">
-            <source class="video__iframe" src="" />
-            <source class="video__iframe" src="" />
-          </video>
+
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU?disablekb=1&enablejsapi=1&loop=1&modestbranding=1&playsinline=1"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY?disablekb=1&enablejsapi=1&loop=1&modestbranding=1&playsinline=1"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
 
         <section class="oakley">
