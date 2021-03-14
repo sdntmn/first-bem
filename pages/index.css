@@ -2,11 +2,15 @@
 
 @import url(/blocks/page/page.css);
 
+/* Повторяющиеся блоки */
+@import url(/blocks/logo.css);
+@import url(/blocks/section-title/section-title.css);
+@import url(/blocks/section-subtitle/section-subtitle.css);
+
 /* Шапка сайта */
 
 /* Блок /header/ */
 @import url(/blocks/header/header.css);
-@import url(/blocks/logo.css);
 @import url(/blocks/logo/_place_header/logo_place_header.css);
 @import url(/blocks/header/__title/header__title.css);
 @import url(/blocks/header/__subtitle/header__subtitle.css);
@@ -52,6 +56,16 @@
 @import url(/blocks/feynman/__link/feynman__link.css);
 @import url(/blocks/feynman/__link/_hover/feynman__link_hover.css);
 @import url(/blocks/feynman/__img/feynman__img.css);
+
+/* Секция / Блок digits / */
+@import url(/blocks/digits/digits.css);
+@import url(/blocks/table/table.css);
+@import url(/blocks/table/__cell/table__cell.css);
+@import url(/blocks/table/__heading/table__heading.css);
+@import url(/blocks/table/__text/table__text.css);
+
+
+
 
 
 
