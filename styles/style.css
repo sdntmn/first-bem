@@ -1,18 +1,7 @@
-/* Секция video */
-.video {
-  width: 100%;
-  position: relative;
-  justify-content: center;
-}
 
-.video__iframes {
-  margin: 50px auto;
-}
+/* Секция oakley */
 
-.video__iframe {
-  width: 515px;
-  height: 316px;
-}
+
 
 /*Секция digits*/
 .digits {
@@ -69,55 +58,6 @@
   font-weight: normal;
 }
 
-/* Секция Feyman */
-.feynman {
-  position: relative;
-  margin: 0 auto;
-  min-height: 790px;
-  background: #f2f2f2;
-  padding-top: 100px;
-  z-index: 1;
-}
-
-.feynman__title {
-  width: 648px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  z-index: 2;
-}
-
-.feynman__subtitle {
-  margin: 70px auto 0;
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  text-decoration: none;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  color: #2f80ed;
-}
-
-.feynman__link:hover {
-  background: rgb(255, 255, 255);
-}
-
-.feynman__img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
 /* Секция kaufman*/
 
