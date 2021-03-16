@@ -2,8 +2,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 388px;
-  z-index: 13;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   left: 64px;
   bottom: 30px;

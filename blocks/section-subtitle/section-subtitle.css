@@ -1,7 +1,6 @@
 .section-subtitle {
-  display: flex;
+  text-align: center;
   width: 60%;
-  justify-content: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
