@@ -3,7 +3,6 @@
 @import url(../blocks/page/page.css);
 
 /* Повторяющиеся блоки */
-@import url(../blocks/logo/logo.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
